@@ -63,9 +63,14 @@ const result = shopping_list.toString().toLowerCase();
 
 console.log (shopping_list);
 
+if (shopping_list === "shirt ", "trouser "){ 
+    console.log("OOPS you forgot to add socks")
+
 shopping_list.push ("SOCKS");
 
 console.log(shopping_list.toString().toLowerCase()); ["socks"];
+}
+else ("Nothing to add. Go shooping!!");
 
 
 
